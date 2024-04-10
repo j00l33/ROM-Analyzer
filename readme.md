@@ -1,6 +1,6 @@
 # Rep and Range of Motion Tracker
 
-This program is designed to be able to analyze a video of a given exercise, and inform the user of the amount of reps performed, and the relative range of motion (ROM) for each repetition. The entire program is written in python and utilizes the TensorFlow model MoveNet to detect the people and their respective joints from an image. The program requires two inputs, the video of the exercise being performed, and the selection of which exercise is being performed. If the exercise isn't available, a new instance of the exercise class can be created with specifications for the new movement. The program also displays a graph of joint angle and distance data for the video
+This program is designed to be able to analyze a video of a given exercise, and inform the user of the amount of reps performed, and the relative range of motion (ROM) for each repetition. The entire program is written in python and utilizes the TensorFlow model MoveNet to detect the people and their respective joints from an image. The program requires two inputs, the video of the exercise being performed, and the selection of which exercise is being performed. If the exercise isn't available, a new instance of the exercise class can be created with specifications for the new movement. The program also displays a graph of joint angle and distance data for the video.
 
 ## Structure
 
